@@ -2,7 +2,16 @@
 module.exports = {
   content: ['index.html'],
   theme: {
-    extend: {},
+    container: {
+      center: true,
+      padding: '16px',
+    },
+    extend: {
+      colors:{
+        primary : '#ff0000',
+        dark : '#0f172a',
+      }
+    },
   },
   plugins: [],
 }
